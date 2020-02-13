@@ -1,3 +1,4 @@
+# Source (second answer): https://stackoverflow.com/questions/27949158/heroku-missing-required-arguments-aws-access-key-id-aws-secret-access-key-f/35961184
 if Rails.env.production?
   CarrierWave.configure do |config|
     config.fog_credentials = {
